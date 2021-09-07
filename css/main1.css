@@ -1,0 +1,38 @@
+body {
+}
+ 
+.box {
+    font-weight: 900;
+font-family: fantasy;
+text-align: center;
+
+padding: 30px;
+
+background-color: gold;
+width: 900px;
+}
+
+.box > .first {
+    font-size: 30px;
+    line-height: 2.5;
+    letter-spacing: 5px;
+}
+
+.box > .second {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inline-div {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+.er{
+    background-color: grey;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
