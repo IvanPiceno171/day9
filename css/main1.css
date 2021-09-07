@@ -8,7 +8,7 @@ text-align: center;
 
 padding: 30px;
 
-background-color: gold;
+background-color: rgb(136, 158, 199);
 width: 900px;
 }
 
@@ -16,23 +16,36 @@ width: 900px;
     font-size: 30px;
     line-height: 2.5;
     letter-spacing: 5px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .box > .second {
     font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+line-height: 45px;
 }
 
 .inline-div {
-    background-color: green;
+    background-color: rgb(231, 173, 125);
     height: 200px;
     width: 200px;
     display: inline-block;
 }
 
 .er{
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     width: 200px;
     height: 100px;
-    margin: 0 auto;
+    
+}
+
+.icon-fighter-jet {
+    color: red;
+    float: right;
+    font-size: 100px;
+}
+
+.icon-asterisk {
+    font-size: 68px;
+    color: blue;
 }
