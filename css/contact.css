@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    
+
+}
+body{
+    width: 100%;
+
+}
+
+.img-container{
+    background-image: url(../img/finance-currency-business-money.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.inner-container{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+}
+.hero-text{
+    font-size: 5em;
+    color: white;
+
+}
+h2{
+    margin-top: -17px;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 300;
+}
+.coin{
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.5em;
+}
+.coin:hover{
+    background-color: red;
+}
+
+.form1,.form2,.form3{
+    height: 5%;
+    width: 3000px;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    padding: 35px;
+    color: snow;
+}
+
+input[type=text],select,textarea{
+    padding: 10px;
+    border:1px solid red;
+    width: 10%;
+    resize: vertical;
+}
+.background-contact{
+    background-color: black;
+    width: 30%;
+    height: 50%;
+    padding: 5%;
+    display: inline-block;
+}
+.contact-form{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.map{
+    background-color: black;
+    width: 30%;
+    height: 70.7%;
+    display: inline-block;
+    float: left;
+}
+.linked-img{
+    float: right;
+    background-color:black;
+    height: 70.7%;
+    width: 30%;
+}
+
+.cb,.ccc{
+    height: 50%;
+    width: 100%;
+}
+.ccc{
+    height: 48%;
+}
